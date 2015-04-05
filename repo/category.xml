@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <bundle id="eclipse-plugin" version="1.0.0.qualifier">
+      <category name="mycategroy"/>
+   </bundle>
+
+   <category-def name="mycategroy" label="CMake for Eclipse">
+   </category-def>
+</site>
