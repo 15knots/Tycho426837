@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Description: CMake build integration
+Bundle-Copyright: 2015 Martin Weber
+Bundle-SymbolicName: eclipse-plugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Martin Weber
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Import-Package: org.osgi.framework
