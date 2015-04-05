@@ -10,7 +10,7 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>eclipse-repository</artifactId>
-  <packaging>eclipse-repository</packaging>
+  <artifactId>eclipse-feature</artifactId>
+  <packaging>eclipse-feature</packaging>
 
 </project>

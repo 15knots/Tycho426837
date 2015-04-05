@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="eclipse-feature"
+      version="1.0.0.qualifier">
+
+   <description url="https://github.com/15knots/cmake4eclipse">
+   </description>
+
+   <copyright>
+      Copyright 2015 Martin Weber
+   </copyright>
+
+   <license url="http://opensource.org/licenses/EPL-1.0">
+      Eclipse Public License -v 1.0
+   </license>
+
+<!-- a feature build triggers the bug UNLESS the feature is empty (no bundles or features included) -->
+   <plugin
+         id="eclipse-plugin"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+</feature>

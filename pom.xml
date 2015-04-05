@@ -18,18 +18,16 @@
   </properties>
 
   <modules>
-  <!-- 
-    <module>../releng/de.marw.cdt.cmake-target</module>
-    <module>../de.marw.cdt.cmake.core</module>
-    <module>../de.marw.cdt.cmake-feature</module>
-   -->
     <module>plugin</module>
+<!-- a repository build does NOT trigger the bu -->
     <module>repo</module>
+<!-- a feature build triggers the bug UNLESS the feature is empty (no bundles or features included) -->
+    <module>feature</module>
   </modules>
 
   <repositories>
     <repository>
-      <id>update36</id>
+      <id>update38</id>
       <url>${eclipse-repository-url}</url>
       <layout>p2</layout>
     </repository>
